@@ -1,0 +1,9 @@
+create table alunos
+(
+   codigo   int primary key Auto_increment,
+   nome     varchar(50),
+   email    varchar(50),
+   telefone varchar(20)
+)
+
+ALTER TABLE `alunos` ADD `ativo` BOOLEAN NOT NULL AFTER `telefone`;

@@ -1,0 +1,38 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.global{
+    width: 1300px;
+    height: 400px;
+    border: 1px solid rgb(123,104,238);
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=submit]
+{
+    font-family: 'Arial Black';
+    width: 220px;
+    height: 52px;
+    background-color: white;
+    color:rgb(123,104,238);
+    border:2px solid rgb(123,104,238);
+    cursor: pointer;
+    display:block;
+    
+}
+
+.global form  input[type=text]{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 220px;
+    height: 30px;
+    padding-left:15px;
+    border-radius: 15px;
+}
